@@ -8,14 +8,28 @@
 	height: 100vh;
 	width: 100%;
     background-color: black;
+	padding-left: 8%;
+	padding-right: 8%;
 }
+.img-area{
+    display: flex;
+}
+.img-area > img{
+	height: 70vh;
+}
+
+.content-container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
 nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding-top: 45px;
-	padding-left: 8%;
-	padding-right: 8%;
+	
 }
 .logo{
 	color: white;
@@ -55,10 +69,8 @@ nav ul li a:hover{
 	transform: scale(1.2);
 }
 .content{
-	position: absolute;
-	top: 50%;
-	left:8%;
-	transform: translateY(-50%);
+	margin-top: 8vh;
+	display: flex;
 }
 h1{
 	color: white;
